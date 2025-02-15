@@ -53,6 +53,26 @@ span {
   color: var(--secondary-color);
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: fit-content;
+  padding: 7px;
+  font-size: 2.4rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
 html,
 body {
   scroll-behavior: smooth;
